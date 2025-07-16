@@ -33,7 +33,7 @@ jobs:
           ../legacy/header.sh 1.img
           ./unpackimg.sh 1.img
           ./repackimg.sh
-          cp -v image-new.img ../legacy/out.img
+          cp -v 1.img ../legacy/out.img
         working-directory: aik
         
       - name: Sign the image
